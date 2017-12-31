@@ -1,0 +1,16 @@
+{
+    "name": "rivasl/test-factory-method-shapes.gp",
+    "description": "Test for implement pattern desing factory method",
+    "authors": [
+        {
+            "name": "Luis",
+            "email": "rivasl.works@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Shapes\\" : ["factories/", "classes/", "interfaces/"]
+        }
+    }
+}
